@@ -1,0 +1,25 @@
+.page{ width: 981px;margin: 0 auto;padding-top: 20px;}
+body{ background-color: #EEE;}
+.main{ flex: 7;}
+.rightArea{ flex: 3;height: 600px;background-color: #FFF;}
+.main{ margin-right: 20px;}
+.artitem{ display: flex;flex-direction: column;height: 180px;padding: 20px;margin-bottom: 20px;background-color: #FFF;}
+.loadmoreList{ display: block;background-color: #FFF;padding: 8px 0;text-align: center;font-size: 13px;color: #9E9E9E;}
+.noList{ padding: 120px 0;font-size: 24px;font-weight: bold;color: #9E9E9E;text-align: center;}
+
+.loginFrame{ display: block;width: 360px;background-color: rgba(29,152,212,.33);border: 1px solid #607D8B;margin: 80px auto 0;padding: 40px 0;text-align: center;border-radius: 5px;}
+.loginInput{ padding: 2px 3px;border-radius: 5px;border: 1px #9E9E9E solid;font-family: Arial;font-size: 18px;height: 32px;width: 232px;margin-bottom: 20px;}
+.loginSubmit{ padding: 5px 10px;border-radius: 4px;font-family: Arial;cursor: pointer;outline: none;}
+
+
+.avatar{ display: block;margin: 20px;border: 1px solid #AFAFAF;}
+.avatarImg{ display: block;width: 100%;}
+.avatarInfo{ margin: 20px;}
+.avatarName{ font-size: 18px;text-transform: capitalize;line-height: 1;margin-top: -2px;}
+div[contentEditable=true]:empty:not(:focus):before{
+    content: attr(data-text);
+    color: #A3A3A3;
+}
+
+.newBlogArea{ width: 680px;margin: 20px auto;}
+.blogTileInput{ display: block;width: 50%;font-size: 20px;margin-bottom: 20px;padding: 8px 12px;font-family: arial;}

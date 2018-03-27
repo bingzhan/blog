@@ -1,0 +1,28 @@
+
+body{ font-family: Arial;}
+a{ text-decoration: none;}
+.fl{ float: left;}
+.fr{ float: right;}
+.hidden{ overflow: hidden;}
+.outnone{ outline: none;}
+.break{ word-break: break-all;}
+.mtm{ margin-top: 10px;}
+.mrs{ margin-right: 5px;}
+.mtl{ margin-top: 20px;}
+.mvs{ margin-top: 5px;margin-bottom: 5px;}
+.mhl{ margin-left: 20px;margin-right: 20px;}
+.clearfix:after{ content: "";height: 0;line-height: 0;clear: both;}
+.pointer{ cursor: pointer;}
+.tar{ text-align: right;}
+.flexContainer{ display: flex;}
+.column{ flex-direction: column;}
+.flexOne{ flex: 1;}
+.center{ display: flex;align-items: center;}
+.end{ display: flex;justify-content: flex-end;}
+.relative{ position: relative;}
+.headerArea{ height: 42px;background-color: #2b98be;box-shadow: 0px 1px 0px #0489bb;}
+.headerContent{ width: 981px;margin: 0 auto;}
+.logoIcon{ display: inline-block;padding: 9px 0;font-size: 20px;word-spacing: 1px;color: #FFF;}
+.headerSearch{ width: 280px;height: 22px;font-family: Arial;}
+.headerButtonBar{ }
+.headerButton{ margin: 0 5px;color: #FFF;text-transform: capitalize;}
